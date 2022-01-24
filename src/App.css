@@ -1,0 +1,65 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size:18px;
+  justify-content: center;
+  align-items: center;
+  background-color:lightblue;
+  font-family:'Monaco', Monaco, monospace;
+}
+
+ input {
+  width: 300px;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+  font-family:'Monaco', Monaco, monospace;
+
+}
+
+ button{
+  width: 300px;
+  height: 50px;
+  margin-top: 15px;
+  border: 1px solid black;
+  font-size:20px;
+  font-family:'Monaco', Monaco, monospace;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.employees{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  width:100%;
+  background-color:lightblue;
+  
+}
+
+.employee{
+  width:700px;
+  height:auto;
+  background-color:azure;
+  border: 1px solid black;
+  margin:10px;
+  display:flex;
+  padding:10px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.employee h3{
+  margin:20px;
+}
