@@ -7,8 +7,8 @@ app.use(cors());
 app.use(express.json());
 const db = mysql.createConnection({
     user: 'root',
-    host: 'localhost',
-    password: 'amanni168375',
+    host: 'openshift',
+    password: '',
     database: 'employeesystem',
 });
 
