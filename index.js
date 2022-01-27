@@ -10,7 +10,7 @@ const db = mysql.createConnection({
   user     : process.env.diksha,
   password : process.env.amanni168375,
   database : process.env.employeesystem,
-  Connection URL: mysql://diksha:3306
+  Connectionurl : mysql://diksha:3306
 });
 
 app.post('/create', (req, res) => {
