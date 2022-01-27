@@ -6,10 +6,11 @@ const  cors = require('cors');
 app.use(cors());
 app.use(express.json());
 const db = mysql.createConnection({
-  host     : process.env.MYSQL_HOST,
-  user     : process.env.MYSQL_USER,
-  password : process.env.MYSQL_PASSWORD,
-  database : process.env.MYSQL_DATABASE,
+  host     : process.env.localhost,
+  user     : process.env.diksha,
+  password : process.env.amanni168375,
+  database : process.env.employeesystem,
+  Connection URL: mysql://diksha:3306
 });
 
 app.post('/create', (req, res) => {
