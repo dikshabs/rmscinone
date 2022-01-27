@@ -5,7 +5,7 @@ const  cors = require('cors');
 
 app.use(cors());
 app.use(express.json());
-const db = curd-mysql.createConnection({
+const db = crud-mysql.createConnection({
   host     : process.env.localhost,
   user     : process.env.diksha,
   password : process.env.amanni168375,
