@@ -70,6 +70,6 @@ app.delete("/delete/:id", (req, res) => {
   });
 });
 
-app.listen(3001, ()=> {
+app.listen(8080, ()=> {
     console.log("its working fynnn");
 });
