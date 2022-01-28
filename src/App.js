@@ -19,7 +19,7 @@ function App() {
   
   const addEmployee =() => {
       console.log(name);
-      Axios.post("http://localhost:8080/create", {
+      Axios.post("http://localhost:3000/create", {
         name:name,
         age:age, 
         address:address,
