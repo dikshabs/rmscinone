@@ -12,7 +12,7 @@ const db =  mysql.createConnection({
   database : process.env.employeesystem,
   
 });
-connection.connect(function(err) {
+db.connect(function(err) {
   if (err) {
     return console.log('error:' + err.message);
   }
