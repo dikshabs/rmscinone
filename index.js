@@ -12,6 +12,12 @@ const db =  mysql.createConnection({
   database : process.env.employeesystem,
   
 });
+connection.connect(function(err) {
+  if (err) {
+    return console.log('error:' + err.message);
+  }
+  console.log('getCustomer microservice is now connected with mysql database...')
+})
 
 app.post('/create', (req, res) => {
     console.log(req.body);
